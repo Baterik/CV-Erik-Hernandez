@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 18px;
+    font-family: sans-serif;
+    justify-content: space-around;
+}
+
+header{
+    background-color: rgb(29, 84, 129);
+    color: white;
+    width: 100vw;
+    height: 300px;
+    display: flex;    
+}
+header .name{
+    width: 90%;
+    margin-left: 100px;
+    font-size: larger;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    
+}
+
+header .img{
+    width: 20%;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+
+main{
+    display: flex;
+    justify-content: space-around;
+}
+
+main .main-info{
+    width: 25%;
+    height: 0 auto;
+    background-color: rgb(135, 201, 255);
+    display: flex;    
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;    
+}
+
+h3{background-color: rgb(29, 84, 129);
+    color: aliceblue;
+}
+
+main li{
+    list-style: none;
+}
+
+main .main-hi{
+    background-color: aliceblue;
+}
+
+main .main-exp{
+    margin-top: 9px;
+    margin-left: 9px;
+    width: 90%;
+}
+
+main .main-experiencia{
+    background-color: aliceblue;
+}
+footer{
+    width: 100%;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: space-around;
+    font-size: smaller;
+}
